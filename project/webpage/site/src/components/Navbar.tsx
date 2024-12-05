@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { Link } from "react-router-dom"
 
 export function Navbar() {
   return (
@@ -7,7 +8,7 @@ export function Navbar() {
         <span className="text-xl font-bold text-white">Speech Global</span>
         <img src="https://github.com/allengroman/web-assets/raw/main/speechglobal/logo.png" alt="Logo" width={40} height={40} />
       </div>
-      <Button variant="outline" className="">Login Admin</Button>
+      <Link to="/channel-sign-in"><Button variant="outline" className="">Login Admin</Button></Link>
     </nav>
   )
 }
