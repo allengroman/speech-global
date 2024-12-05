@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { Link } from "react-router-dom"
 
 export function HeroSection() {
   return (
@@ -10,8 +11,8 @@ export function HeroSection() {
       <div className="relative z-10 text-center">
         <h1 className="text-4xl font-bold mb-6">Platform for real time speech translation</h1>
         <div className="space-x-4">
-          <Button variant="outline" className="bg-blue-800 hover:bg-blue-900">Join Stream</Button>
-          <Button variant="outline" className="bg-blue-800 hover:bg-blue-900">Login User</Button>
+          <Link to="/join"><Button variant="outline" className="bg-blue-800 hover:bg-blue-900">Join Stream</Button></Link>
+          <Link to="/user-sign-in"><Button variant="outline" className="bg-blue-800 hover:bg-blue-900">Login User</Button></Link>
         </div>
       </div>
     </section>
