@@ -8,3 +8,9 @@
 [2024-12-07 00:09:09] Response status: 304
 [2024-12-07 00:19:15] Incoming request: GET /join
 [2024-12-07 00:19:15] Response status: 304
+[2024-12-07 05:32:53] Incoming request: GET /
+[2024-12-07 05:32:53] Response status: 200
+[2024-12-07 05:32:54] Incoming request: GET /assets/index-BAQRYucw.css
+[2024-12-07 05:32:54] Response status: 304
+[2024-12-07 05:32:54] Incoming request: GET /assets/index-DfAXJJD4.js
+[2024-12-07 05:32:54] Response status: 304
