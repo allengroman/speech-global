@@ -1,0 +1,10 @@
+[2024-12-06 22:43:08] Incoming request: GET /
+[2024-12-06 22:43:08] Response status: 304
+[2024-12-06 22:43:08] Incoming request: GET /assets/index-BAQRYucw.css
+[2024-12-06 22:43:08] Incoming request: GET /assets/index-DfAXJJD4.js
+[2024-12-06 22:43:08] Response status: 304
+[2024-12-06 22:43:08] Response status: 304
+[2024-12-07 00:09:09] Incoming request: GET /
+[2024-12-07 00:09:09] Response status: 304
+[2024-12-07 00:19:15] Incoming request: GET /join
+[2024-12-07 00:19:15] Response status: 304
