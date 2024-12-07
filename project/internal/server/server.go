@@ -37,9 +37,11 @@ func Run(programLogger logging.Logger) error {
   // add groups to blanket with auth protection
   users := r.Group("/users")
   users.Use(middleware.AuthMiddleware(&programLogger))
-  
+  {}
+
   channel := r.Group("/channel")
   channel.Use(middleware.AuthMiddleware(&programLogger))
+  {}
 
   // start server
   return r.Run(":8080")

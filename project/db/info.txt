@@ -1,0 +1,7 @@
+Creating the database:
+
+Add tables and create the db:
+sqlite3 speechglobal.db < createTables.sql
+
+To access the db, command:
+sqlite3 speechglobal.db
